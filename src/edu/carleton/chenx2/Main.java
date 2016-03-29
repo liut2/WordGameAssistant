@@ -1,3 +1,4 @@
+// author : Xi Chen
 package edu.carleton.chenx2;
 
 public class Main {
