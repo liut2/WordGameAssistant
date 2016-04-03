@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7fe5148-d83c-43c8-a344-96ba58e8c270" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/edu/carleton/chenx2/WordGameAssistantTest.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WordGameAssistant/edu/carleton/chenx2/WordGameAssistant.class" afterPath="$PROJECT_DIR$/out/production/WordGameAssistant/edu/carleton/chenx2/WordGameAssistant.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WordGameAssistant/edu/carleton/chenx2/WordGameAssistantTest.class" afterPath="$PROJECT_DIR$/out/production/WordGameAssistant/edu/carleton/chenx2/WordGameAssistantTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WordGameAssistant.iml" afterPath="$PROJECT_DIR$/WordGameAssistant.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/edu/carleton/chenx2/WordGameAssistant.java" afterPath="$PROJECT_DIR$/src/edu/carleton/chenx2/WordGameAssistant.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/edu/carleton/chenx2/WordGameAssistantTest.java" afterPath="$PROJECT_DIR$/src/edu/carleton/chenx2/WordGameAssistantTest.java" />
     </list>
     <ignored path="WordGameAssistant.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,8 +31,8 @@
       <file leaf-file-name="WordGameAssistant.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/edu/carleton/chenx2/WordGameAssistant.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="365">
-              <caret line="117" column="7" selection-start-line="117" selection-start-column="7" selection-end-line="117" selection-end-column="7" />
+            <state relative-caret-position="513">
+              <caret line="111" column="29" selection-start-line="111" selection-start-column="29" selection-end-line="111" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -39,29 +40,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WordGameAssistant.iml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WordGameAssistant.iml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="WordGameAssistantTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/edu/carleton/chenx2/WordGameAssistantTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="18" column="59" selection-start-line="18" selection-start-column="59" selection-end-line="18" selection-end-column="59" />
+            <state relative-caret-position="444">
+              <caret line="256" column="0" selection-start-line="256" selection-start-column="0" selection-end-line="256" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1983#1991#0" expanded="true" />
-                <element signature="e#5876#5884#0" expanded="true" />
-                <element signature="e#10796#10804#0" expanded="true" />
-                <element signature="e#11473#11481#0" expanded="true" />
-                <element signature="e#11569#11577#0" expanded="true" />
-                <element signature="e#12033#12041#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -89,8 +74,8 @@
       <list>
         <option value="$PROJECT_DIR$/src/edu/carleton/chenx2/Main.java" />
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
-        <option value="$PROJECT_DIR$/src/edu/carleton/chenx2/WordGameAssistant.java" />
         <option value="$PROJECT_DIR$/src/edu/carleton/chenx2/WordGameAssistantTest1.java" />
+        <option value="$PROJECT_DIR$/src/edu/carleton/chenx2/WordGameAssistant.java" />
         <option value="$PROJECT_DIR$/src/edu/carleton/chenx2/WordGameAssistantTest.java" />
       </list>
     </option>
@@ -126,7 +111,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -165,13 +149,16 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/chenx2-wordgameassistant-502426b64850" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit3" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.appearance" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -182,25 +169,8 @@
       <recent name="junit.framework.TestCase" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.WordGameAssistantTest.testWordListOrderedBySizeEmpty">
-    <configuration default="false" name="WordGameAssistant" type="Application" factoryName="Application" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="edu.carleton.chenx2.WordGameAssistant" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="WordGameAssistant" />
-      <envs />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="WordGameAssistantTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.WordGameAssistantTest.testWordListOrderedBySizeTypical2">
+    <configuration default="false" name="WordGameAssistantTest.testWordsMatchingRegularExpressionTypical2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="edu.carleton.chenx2.*" />
@@ -212,33 +182,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="edu.carleton.chenx2" />
       <option name="MAIN_CLASS_NAME" value="edu.carleton.chenx2.WordGameAssistantTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="WordGameAssistantTest.testWordsUsingAllLettersTypical" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="edu.carleton.chenx2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="WordGameAssistant" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="edu.carleton.chenx2" />
-      <option name="MAIN_CLASS_NAME" value="edu.carleton.chenx2.WordGameAssistantTest" />
-      <option name="METHOD_NAME" value="testWordsUsingAllLettersTypical" />
+      <option name="METHOD_NAME" value="testWordsMatchingRegularExpressionTypical2" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
@@ -252,7 +196,7 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="WordGameAssistantTest.testWordsUsingOnlyLettersCase" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="WordGameAssistantTest.testWordsMatchingRegularExpressionTypical1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="edu.carleton.chenx2.*" />
@@ -264,7 +208,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="edu.carleton.chenx2" />
       <option name="MAIN_CLASS_NAME" value="edu.carleton.chenx2.WordGameAssistantTest" />
-      <option name="METHOD_NAME" value="testWordsUsingOnlyLettersCase" />
+      <option name="METHOD_NAME" value="testWordsMatchingRegularExpressionTypical1" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
@@ -278,7 +222,7 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="WordGameAssistantTest.testWordListOrderedBySizeEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="WordGameAssistantTest.testWordListOrderedBySizeTypical" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="edu.carleton.chenx2.*" />
@@ -290,7 +234,59 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="edu.carleton.chenx2" />
       <option name="MAIN_CLASS_NAME" value="edu.carleton.chenx2.WordGameAssistantTest" />
-      <option name="METHOD_NAME" value="testWordListOrderedBySizeEmpty" />
+      <option name="METHOD_NAME" value="testWordListOrderedBySizeTypical" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="WordGameAssistantTest.testWordListOrderedBySizeTypical2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="edu.carleton.chenx2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="WordGameAssistant" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="edu.carleton.chenx2" />
+      <option name="MAIN_CLASS_NAME" value="edu.carleton.chenx2.WordGameAssistantTest" />
+      <option name="METHOD_NAME" value="testWordListOrderedBySizeTypical2" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="WordGameAssistantTest.testWordsUsingOnlyLettersTypical" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="edu.carleton.chenx2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="WordGameAssistant" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="edu.carleton.chenx2" />
+      <option name="MAIN_CLASS_NAME" value="edu.carleton.chenx2.WordGameAssistantTest" />
+      <option name="METHOD_NAME" value="testWordsUsingOnlyLettersTypical" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
@@ -517,19 +513,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.WordGameAssistant" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.WordGameAssistantTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.WordGameAssistantTest.testWordsUsingAllLettersTypical" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.WordGameAssistantTest.testWordsUsingOnlyLettersCase" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.WordGameAssistantTest.testWordListOrderedBySizeEmpty" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.WordGameAssistantTest.testWordsMatchingRegularExpressionTypical2" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.WordGameAssistantTest.testWordsMatchingRegularExpressionTypical1" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.WordGameAssistantTest.testWordListOrderedBySizeTypical" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.WordGameAssistantTest.testWordListOrderedBySizeTypical2" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.WordGameAssistantTest.testWordsUsingOnlyLettersTypical" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.WordGameAssistantTest.testWordListOrderedBySizeEmpty" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.WordGameAssistantTest.testWordsUsingOnlyLettersCase" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.WordGameAssistantTest.testWordsUsingAllLettersTypical" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.WordGameAssistantTest" />
-        <item index="4" class="java.lang.String" itemvalue="Application.WordGameAssistant" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.WordGameAssistantTest.testWordListOrderedBySizeTypical2" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.WordGameAssistantTest.testWordsUsingOnlyLettersTypical" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.WordGameAssistantTest.testWordListOrderedBySizeTypical" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.WordGameAssistantTest.testWordsMatchingRegularExpressionTypical2" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.WordGameAssistantTest.testWordsMatchingRegularExpressionTypical1" />
       </list>
     </recent_temporary>
   </component>
@@ -550,32 +546,50 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="WordGameAssistantTest - 2016.04.01 at 20h 27m 58s.xml">
-      <configuration name="WordGameAssistantTest" configurationId="JUnit" />
+    <history-entry file="WordGameAssistantTest_testWordListOrderedBySizeTypical - 2016.04.03 at 14h 46m 31s.xml">
+      <configuration name="WordGameAssistantTest.testWordListOrderedBySizeTypical" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WordGameAssistantTest_testWordListOrderedBySizeEmpty - 2016.04.01 at 20h 30m 12s.xml">
-      <configuration name="WordGameAssistantTest.testWordListOrderedBySizeEmpty" configurationId="JUnit" />
+    <history-entry file="WordGameAssistantTest_testWordListOrderedBySizeTypical - 2016.04.03 at 14h 50m 24s.xml">
+      <configuration name="WordGameAssistantTest.testWordListOrderedBySizeTypical" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WordGameAssistantTest_testWordsUsingAllLettersTypical - 2016.04.01 at 20h 28m 53s.xml">
-      <configuration name="WordGameAssistantTest.testWordsUsingAllLettersTypical" configurationId="JUnit" />
+    <history-entry file="WordGameAssistantTest_testWordListOrderedBySizeTypical - 2016.04.03 at 14h 55m 43s.xml">
+      <configuration name="WordGameAssistantTest.testWordListOrderedBySizeTypical" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WordGameAssistantTest_testWordsUsingOnlyLettersCase - 2016.04.01 at 20h 29m 37s.xml">
-      <configuration name="WordGameAssistantTest.testWordsUsingOnlyLettersCase" configurationId="JUnit" />
+    <history-entry file="WordGameAssistantTest_testWordListOrderedBySizeTypical - 2016.04.03 at 14h 56m 22s.xml">
+      <configuration name="WordGameAssistantTest.testWordListOrderedBySizeTypical" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WordGameAssistantTest_testWordListOrderedBySizeTypical2 - 2016.04.03 at 14h 51m 58s.xml">
+      <configuration name="WordGameAssistantTest.testWordListOrderedBySizeTypical2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WordGameAssistantTest_testWordListOrderedBySizeTypical2 - 2016.04.03 at 14h 55m 04s.xml">
+      <configuration name="WordGameAssistantTest.testWordListOrderedBySizeTypical2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WordGameAssistantTest_testWordListOrderedBySizeTypical2 - 2016.04.03 at 14h 58m 31s.xml">
+      <configuration name="WordGameAssistantTest.testWordListOrderedBySizeTypical2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WordGameAssistantTest_testWordsMatchingRegularExpressionTypical4 - 2016.04.03 at 14h 22m 43s.xml">
+      <configuration name="WordGameAssistantTest.testWordsMatchingRegularExpressionTypical4" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WordGameAssistantTest_testWordsUsingOnlyLettersTypical - 2016.04.03 at 14h 57m 01s.xml">
+      <configuration name="WordGameAssistantTest.testWordsUsingOnlyLettersTypical" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WordGameAssistantTest_testWordsUsingOnlyLettersTypical - 2016.04.03 at 14h 57m 15s.xml">
+      <configuration name="WordGameAssistantTest.testWordsUsingOnlyLettersTypical" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995495" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30338266" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21987315" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -606,7 +620,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="8" />
+      <option name="time" value="11" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -627,9 +641,78 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/edu/carleton/chenx2/WordGameAssistantTest.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3249">
+          <caret line="176" column="33" selection-start-line="176" selection-start-column="33" selection-end-line="176" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/carleton/chenx2/WordGameAssistant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/carleton/chenx2/WordGameAssistantTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="29" column="124" selection-start-line="29" selection-start-column="124" selection-end-line="29" selection-end-column="124" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/carleton/chenx2/WordGameAssistant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2185">
+          <caret line="117" column="7" selection-start-line="117" selection-start-column="7" selection-end-line="117" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WordGameAssistant.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/carleton/chenx2/WordGameAssistantTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/carleton/chenx2/WordGameAssistant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/carleton/chenx2/WordGameAssistantTest.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
           <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -698,14 +781,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="785">
           <caret line="266" column="0" selection-start-line="17" selection-start-column="4" selection-end-line="266" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/edu/carleton/chenx2/WordGameAssistant.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="117" column="7" selection-start-line="117" selection-start-column="7" selection-end-line="117" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -716,22 +791,25 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/carleton/chenx2/WordGameAssistant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="111" column="29" selection-start-line="111" selection-start-column="29" selection-end-line="111" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/edu/carleton/chenx2/WordGameAssistantTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="59" selection-start-line="18" selection-start-column="59" selection-end-line="18" selection-end-column="59" />
+        <state relative-caret-position="444">
+          <caret line="256" column="0" selection-start-line="256" selection-start-column="0" selection-end-line="256" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1983#1991#0" expanded="true" />
-            <element signature="e#5876#5884#0" expanded="true" />
-            <element signature="e#10796#10804#0" expanded="true" />
-            <element signature="e#11473#11481#0" expanded="true" />
-            <element signature="e#11569#11577#0" expanded="true" />
-            <element signature="e#12033#12041#0" expanded="true" />
           </folding>
         </state>
       </provider>

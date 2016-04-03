@@ -12,12 +12,13 @@ package edu.carleton.chenx2;
  * methods for accessing the dictionary in a variety of ways.
  */
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+import java.io.File;
+import java.util.*;
+import java.util.regex.Pattern;
+
 
 public class WordGameAssistant {
-
+    private String[] dic;
     /**
      * Initializes this WordGameAssistant given a word list contained in
      * the specified file. The file must consist of one word per line.
@@ -25,7 +26,15 @@ public class WordGameAssistant {
      * @param dictionaryFilePath the path to the dictionary file
      */
     public WordGameAssistant(String dictionaryFilePath) {
-        // Not yet implemented.
+//        String token1 = "";
+//        Scanner inFile1 = new Scanner(new File(dictionaryFilePath)).useDelimiter(",\\s*");
+//        List<String> temps = new ArrayList<String>();
+//        while (inFile1.hasNext()) {
+//            token1 = inFile1.next();
+//            temps.add(token1);
+//        }
+//        inFile1.close();
+//        dic = temps.toArray(new String[0]);
     }
 
     /**
@@ -35,6 +44,7 @@ public class WordGameAssistant {
      */
     public WordGameAssistant(String[] wordList) {
         // Not yet implemented.
+        dic = wordList;
     }
 
     /**
@@ -52,8 +62,29 @@ public class WordGameAssistant {
      * @return the list of matching words
      */
     public List<String> wordsUsingOnlyLetters(String letters) {
-        // Not yet implemented.
-        return Arrays.asList("dog", "cat", "moose");
+        List<String> words = new LinkedList();
+        for (String s: dic) {
+            char[] arr = letters.toCharArray();
+            LinkedList character = new LinkedList();
+            for(char c: arr){
+                character.add(c);
+            }
+            boolean match = true;
+            char[] list_of_char = s.toCharArray();
+            for (char c: list_of_char){
+                if (character.contains(c)){
+                    character.removeFirstOccurrence(c);
+                }else{
+                    match = false;
+                    break;
+                }
+            }
+            if (match){
+                words.add(s);
+            }
+        }
+        System.out.println(words);
+        return words;
     }
 
     /**
@@ -71,8 +102,29 @@ public class WordGameAssistant {
      * @return the list of matching words
      */
     public List<String> wordsUsingLettersAllowingRepetition(String letters) {
-        // Not yet implemented.
-        return new ArrayList<String>();
+        char[] arr = letters.toCharArray();
+        List<String> words = new LinkedList();
+        LinkedList list = new LinkedList();
+        for(char c: arr){
+            list.add(c);
+        }
+        LinkedList character;
+        for (String s: dic) {
+            character = list;
+            boolean match = true;
+            char[] list_of_char = s.toCharArray();
+            for (char c: list_of_char){
+                if (character.contains(c)){
+                }else{
+                    match = false;
+                    break;
+                }
+            }
+            if (match){
+                words.add(s);
+            }
+        }
+        return words;
     }
 
     /**
@@ -88,8 +140,30 @@ public class WordGameAssistant {
      * @return the list of matching words
      */
     public List<String> wordsUsingAllLetters(String letters) {
-        // Not yet implemented.
-        return null;
+        List<String> words = new LinkedList();
+        for (String s: dic) {
+            char[] arr = letters.toCharArray();
+            LinkedList character = new LinkedList();
+            for(char c: arr){
+                character.add(c);
+            }
+            boolean match = true;
+            char[] list_of_char = s.toCharArray();
+            for (char c: list_of_char){
+                if (character.contains(c)){
+                    character.removeFirstOccurrence(c);
+                }else{
+                    match = false;
+                    break;
+                }
+            }
+            if (match && character.isEmpty()){
+                words.add(s);
+            }
+        }
+        System.out.println(words);
+        return words;
+
     }
 
     /**
@@ -104,8 +178,14 @@ public class WordGameAssistant {
      * @return the list of matching words
      */
     public List<String> wordsMatchingRegularExpression(String regex) {
-        // Not yet implemented.
-        return null;
+        List<String> words = new LinkedList<String>();
+        for (String s: dic){
+            if (s.matches(regex)){
+                words.add(s);
+            }
+        }
+        System.out.println(words);
+        return words;
     }
 
     /**
@@ -117,8 +197,30 @@ public class WordGameAssistant {
      * @return the sorted list
      */
     public List<String> wordListOrderedBySize(List<String> wordList) {
-        // Not yet implemented.
-        return null;
+        Comparator<String> x = new Comparator<String>()
+        {
+            @Override
+            public int compare(String o1, String o2)
+            {
+                if(o1.length() > o2.length())
+                    return -1;
+
+                if(o2.length() > o1.length())
+                    return 1;
+
+                else
+                    if(o1.compareTo(o2) > 0)
+                        return 1;
+
+                    if(o1.compareTo(o2) < 0)
+                        return -1;
+
+                    return 0;
+            }
+        };
+        Collections.sort(wordList,  x);
+        System.out.println(wordList.toString());
+        return wordList;
     }
 
     public static void main(String[] args){

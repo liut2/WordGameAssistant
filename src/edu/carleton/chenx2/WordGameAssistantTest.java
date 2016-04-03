@@ -245,6 +245,15 @@ public class WordGameAssistantTest extends TestCase {
         Assert.assertEquals("Typical test failed", expected, list);
     }
 
+    public void testWordListOrderedBySizeTypical2() throws Exception {
+        List<String> list = new ArrayList<String>(Arrays.asList("w", "bcd", "ad","f"));
+        List<String> expected = new ArrayList<String>(Arrays.asList("owe", "woe", "wow","we"));
+        list = wordGameAssistant.wordListOrderedBySize(list);
+        expected = wordGameAssistant.wordListOrderedBySize(expected);
+        Assert.assertNotSame("Typical test failed", expected, list);
+    }
+
+
 
     public void testWordListOrderedBySizeEmpty() throws Exception {
         List<String> list = wordGameAssistant.wordListOrderedBySize(new ArrayList<String>());
