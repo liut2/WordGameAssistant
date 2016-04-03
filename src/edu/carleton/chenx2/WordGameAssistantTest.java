@@ -163,7 +163,7 @@ public class WordGameAssistantTest extends TestCase {
 
 
     public void testWordsMatchingRegularExpressionTypical1() throws Exception {
-        List<String> list = wordGameAssistant.wordsUsingAllLetters("^t.a.l$");
+        List<String> list = wordGameAssistant.wordsMatchingRegularExpression("^t.a.l$");
         List<String> expected = new ArrayList<String>(Arrays.asList("trail","trawl"));
         list = this.wordGameAssistant.wordListOrderedBySize(list);
         expected = this.wordGameAssistant.wordListOrderedBySize(expected);
@@ -172,14 +172,14 @@ public class WordGameAssistantTest extends TestCase {
 
 
     public void testWordsMatchingRegularExpressionTypical2() throws Exception {
-        List<String> list = wordGameAssistant.wordsUsingAllLetters("^w.*e$");
+        List<String> list = wordGameAssistant.wordsMatchingRegularExpression("^w.*e$");
         List<String> expected = new ArrayList<String>(Arrays.asList("woe", "we", "wee"));
         list = this.wordGameAssistant.wordListOrderedBySize(list);
         expected = this.wordGameAssistant.wordListOrderedBySize(expected);
         Assert.assertEquals("Typical test 2 failed", expected, list);
     }
     public void testWordsMatchingRegularExpressionTypical3() throws Exception {
-        List<String> list = wordGameAssistant.wordsUsingAllLetters("w.*");
+        List<String> list = wordGameAssistant.wordsMatchingRegularExpression("w.*");
         List<String> expected = new ArrayList<String>(Arrays.asList("wow", "woe","we", "wee",
                 "ewe", "woo"));
         list = this.wordGameAssistant.wordListOrderedBySize(list);
@@ -189,7 +189,7 @@ public class WordGameAssistantTest extends TestCase {
 
 
     public void testWordsMatchingRegularExpressionAllWords() throws Exception {
-        List<String> list = wordGameAssistant.wordsUsingAllLetters("*");
+        List<String> list = wordGameAssistant.wordsMatchingRegularExpression(".*");
         List<String> expected = new ArrayList<String>(Arrays.asList("wow", "woe", "owe","we", "wee",
                 "ewe", "woo", "race", "care","acre", "trail","trawl"));
         list = this.wordGameAssistant.wordListOrderedBySize(list);
@@ -199,7 +199,7 @@ public class WordGameAssistantTest extends TestCase {
 
 
     public void testWordsMatchingRegularExpressionEmpty() throws Exception {
-        List<String> list = wordGameAssistant.wordsUsingAllLetters("kfgjj");
+        List<String> list = wordGameAssistant.wordsMatchingRegularExpression("kfgjj");
         List<String> expected = new ArrayList<String>();
         list = this.wordGameAssistant.wordListOrderedBySize(list);
         expected = this.wordGameAssistant.wordListOrderedBySize(expected);
@@ -208,13 +208,13 @@ public class WordGameAssistantTest extends TestCase {
 
 
     public void testWordsMatchingRegularExpressionNull() throws Exception {
-        List<String> list = wordGameAssistant.wordsUsingAllLetters(null);
+        List<String> list = wordGameAssistant.wordsMatchingRegularExpression(null);
         Assert.assertEquals("Null test failed", null, list);
     }
 
 
     public void testWordsMatchingRegularExpressionSubstring() throws Exception {
-        List<String> list = wordGameAssistant.wordsUsingAllLetters("ow");
+        List<String> list = wordGameAssistant.wordsMatchingRegularExpression("ow");
         List<String> expected = new ArrayList<String>(Arrays.asList("wow", "owe"));
         list = this.wordGameAssistant.wordListOrderedBySize(list);
         expected = this.wordGameAssistant.wordListOrderedBySize(expected);
@@ -223,7 +223,7 @@ public class WordGameAssistantTest extends TestCase {
 
 
     public void testWordsMatchingRegularExpressionCase() throws Exception {
-        List<String> list = wordGameAssistant.wordsUsingAllLetters("^T.A.L$");
+        List<String> list = wordGameAssistant.wordsMatchingRegularExpression("^T.A.L$");
         List<String> expected = new ArrayList<String>(Arrays.asList("trail","trawl"));
         list = this.wordGameAssistant.wordListOrderedBySize(list);
         expected = this.wordGameAssistant.wordListOrderedBySize(expected);
