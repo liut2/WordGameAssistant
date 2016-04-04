@@ -191,7 +191,7 @@ public class WordGameAssistantTest extends TestCase {
 
 
     public void testWordsMatchingRegularExpressionAllWords() throws Exception {
-        List<String> list = wordGameAssistant.wordsMatchingRegularExpression(".*");
+        List<String> list = wordGameAssistant.wordsMatchingRegularExpression("^.*$");
         List<String> expected = new ArrayList<String>(Arrays.asList("wow", "woe", "owe","we", "wee",
                 "ewe", "woo", "race", "care","acre", "trail","trawl"));
         list = this.wordGameAssistant.wordListOrderedBySize(list);
@@ -201,7 +201,7 @@ public class WordGameAssistantTest extends TestCase {
 
 
     public void testWordsMatchingRegularExpressionEmpty() throws Exception {
-        List<String> list = wordGameAssistant.wordsMatchingRegularExpression("kfgjj");
+        List<String> list = wordGameAssistant.wordsMatchingRegularExpression("");
         List<String> expected = new ArrayList<String>();
         list = this.wordGameAssistant.wordListOrderedBySize(list);
         expected = this.wordGameAssistant.wordListOrderedBySize(expected);
@@ -216,7 +216,7 @@ public class WordGameAssistantTest extends TestCase {
 
 
     public void testWordsMatchingRegularExpressionSubstring() throws Exception {
-        List<String> list = wordGameAssistant.wordsMatchingRegularExpression("ow");
+        List<String> list = wordGameAssistant.wordsMatchingRegularExpression("^ow$");
         List<String> expected = new ArrayList<String>(Arrays.asList("wow", "owe"));
         list = this.wordGameAssistant.wordListOrderedBySize(list);
         expected = this.wordGameAssistant.wordListOrderedBySize(expected);
@@ -244,7 +244,7 @@ public class WordGameAssistantTest extends TestCase {
         List<String> expected = new ArrayList<String>(Arrays.asList("owe", "woe", "wow","we"));
         list = wordGameAssistant.wordListOrderedBySize(list);
         expected = wordGameAssistant.wordListOrderedBySize(expected);
-        Assert.assertEquals("Typical test failed", expected, list);
+        Assert.assertEquals("testWordListOrderedBySize Typical test failed", expected, list);
     }
 
     public void testWordListOrderedBySizeTypical2() throws Exception {
@@ -252,7 +252,7 @@ public class WordGameAssistantTest extends TestCase {
         List<String> expected = new ArrayList<String>(Arrays.asList("owe", "woe", "wow","we"));
         list = wordGameAssistant.wordListOrderedBySize(list);
         expected = wordGameAssistant.wordListOrderedBySize(expected);
-        Assert.assertNotSame("Typical test failed", expected, list);
+        Assert.assertNotSame("testWordListOrderedBySize Typical test failed", expected, list);
     }
 
 
@@ -260,13 +260,13 @@ public class WordGameAssistantTest extends TestCase {
     public void testWordListOrderedBySizeEmpty() throws Exception {
         List<String> list = wordGameAssistant.wordListOrderedBySize(new ArrayList<String>());
         List<String> result = new ArrayList<String>();
-        Assert.assertEquals("Empty test failed", result, list);
+        Assert.assertEquals("testWordListOrderedBySize Empty test failed", result, list);
     }
 
 
     public void testWordListOrderedBySizeNull() throws Exception {
         List<String> expected = wordGameAssistant.wordListOrderedBySize(null);
-        Assert.assertEquals("Null test failed", expected, new ArrayList<String>());
+        Assert.assertEquals("testWordListOrderedBySize Null test failed", expected, new ArrayList<String>());
     }
 
 

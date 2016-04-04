@@ -107,7 +107,7 @@ public class WordGameAssistant {
         }
     }
     private Trie trie = new Trie();
-    private String[] dic;
+    private ArrayList<String> dic = new ArrayList<String>();
     /**
      * Initializes this WordGameAssistant given a word list contained in
      * the specified file. The file must consist of one word per line.
@@ -130,6 +130,7 @@ public class WordGameAssistant {
         while (sc.hasNextLine()){
             String line = sc.nextLine().toLowerCase();
             this.trie.insert(line);
+            this.dic.add(line);
         }
     }
 
@@ -143,7 +144,7 @@ public class WordGameAssistant {
         for (String str : wordList){
             this.trie.insert(str);
         }
-        this.dic = wordList;
+        this.dic = new ArrayList<String>(Arrays.asList(wordList));
     }
 
     /**
@@ -311,12 +312,13 @@ public class WordGameAssistant {
             return  words;
         }
         regex = regex.toLowerCase();
+        //System.out.println(regex);
         for (String s: dic){
             if (s.matches(regex)){
                 words.add(s);
             }
         }
-        System.out.println(words);
+        //System.out.println(words);
         return words;
     }
     /**
@@ -353,12 +355,50 @@ public class WordGameAssistant {
             }
         };
         Collections.sort(wordList,  x);
-        System.out.println(wordList.toString());
+        //System.out.println(wordList.toString());
         return wordList;
     }
 
 
     public static void main(String[] args){
-        
+        if (args.length != 2 && args.length != 3 ){
+            System.out.println(args.length);
+            System.out.println("usage: java WordGameAssistant [--dictionary=path-to-dictionary-file] action letters");
+            System.exit(1);
+        }
+        String dicPath = null;
+        String action;
+        String letters;
+        if (args.length == 3){
+            dicPath = args[0];
+            action = args[1];
+            letters = args[2];
+        }else{
+            action = args[0];
+            letters = args[1];
+        }
+        //construct the wordsAssitant object
+        WordGameAssistant wordGameAssistant = dicPath == null? new WordGameAssistant("dictionary.txt"): new WordGameAssistant(dicPath);
+        //actions: words, use-all-letters, allow-repetition, and regex
+        //wordsUsingOnlyLetters, wordsUsingAllLetters, wordsUsingLettersAllowingRepetition, and wordsMatchingRegularExpression, respectively.
+        List<String> result = new ArrayList<String>();
+        switch(action){
+            case "words":
+                result = wordGameAssistant.wordsUsingOnlyLetters(letters);
+                break;
+            case "use-all-letters":
+                result = wordGameAssistant.wordsUsingAllLetters(letters);
+                break;
+            case "allow-repetition":
+                result = wordGameAssistant.wordsUsingLettersAllowingRepetition(letters);
+                break;
+            case "regex":
+                result = wordGameAssistant.wordsMatchingRegularExpression(letters);
+                break;
+            default:
+                break;
+        }
+        wordGameAssistant.wordListOrderedBySize(result);
+        System.out.println(result.toString());
     }
 }

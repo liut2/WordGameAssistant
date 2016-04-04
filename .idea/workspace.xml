@@ -18,6 +18,9 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/wordgameassistant$WordGameAssistant.coverage" NAME="WordGameAssistant Coverage Results" MODIFIED="1459806341180" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.carleton.chenx2.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/wordgameassistant$WordGameAssistantTest.coverage" NAME="WordGameAssistantTest Coverage Results" MODIFIED="1459803401651" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>edu.carleton.chenx2.*</FILTER>
     </SUITE>
@@ -31,24 +34,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="WordGameAssistant.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="WordGameAssistant.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/edu/carleton/chenx2/WordGameAssistant.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8017621">
-              <caret line="361" column="8" selection-start-line="361" selection-start-column="8" selection-end-line="361" selection-end-column="8" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="328" column="40" selection-start-line="328" selection-start-column="40" selection-end-line="328" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#11793#11801#0" expanded="true" />
+                <element signature="e#3924#3932#0" expanded="true" />
+                <element signature="e#11898#11906#0" expanded="true" />
+                <element signature="e#14437#14445#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WordGameAssistantTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="WordGameAssistantTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/edu/carleton/chenx2/WordGameAssistantTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="185" column="92" selection-start-line="185" selection-start-column="92" selection-end-line="185" selection-end-column="92" />
+            <state vertical-scroll-proportion="0.3171806">
+              <caret line="184" column="78" selection-start-line="184" selection-start-column="78" selection-end-line="184" selection-end-column="78" />
               <folding>
                 <element signature="e#2510#2518#0" expanded="true" />
               </folding>
@@ -90,8 +95,8 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="318" />
-    <option name="y" value="23" />
+    <option name="x" value="392" />
+    <option name="y" value="62" />
     <option name="width" value="1400" />
     <option name="height" value="977" />
   </component>
@@ -154,6 +159,68 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wordgameassistant" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wordgameassistant" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="edu" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wordgameassistant" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wordgameassistant" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="edu" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="carleton" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wordgameassistant" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wordgameassistant" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="edu" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="carleton" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="chenx2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
@@ -170,6 +237,9 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -181,30 +251,24 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.WordGameAssistantTest">
-    <configuration default="false" name="WordGameAssistantTest.testWordsMatchingRegularExpressionTypical2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="WordGameAssistant" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="edu.carleton.chenx2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <module name="WordGameAssistant" />
+      <option name="MAIN_CLASS_NAME" value="edu.carleton.chenx2.WordGameAssistant" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="regex ^st.*nch$" />
+      <option name="WORKING_DIRECTORY" value="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="edu.carleton.chenx2" />
-      <option name="MAIN_CLASS_NAME" value="edu.carleton.chenx2.WordGameAssistantTest" />
-      <option name="METHOD_NAME" value="testWordsMatchingRegularExpressionTypical2" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
+      <module name="WordGameAssistant" />
       <envs />
-      <patterns />
       <method />
     </configuration>
     <configuration default="false" name="WordGameAssistantTest.testWordListOrderedBySizeTypical" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
@@ -695,7 +759,7 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.WordGameAssistantTest.testWordsMatchingRegularExpressionTypical2" />
+      <item index="0" class="java.lang.String" itemvalue="Application.WordGameAssistant" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.WordGameAssistantTest.testWordListOrderedBySizeTypical" />
       <item index="2" class="java.lang.String" itemvalue="JUnit.WordGameAssistantTest.testWordListOrderedBySizeTypical2" />
       <item index="3" class="java.lang.String" itemvalue="JUnit.WordGameAssistantTest.testWordsUsingOnlyLettersTypical" />
@@ -704,10 +768,10 @@
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="JUnit.WordGameAssistantTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.WordGameAssistantTest.testWordListOrderedBySizeTypical2" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.WordGameAssistantTest.testWordsUsingOnlyLettersTypical" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.WordGameAssistantTest.testWordListOrderedBySizeTypical" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.WordGameAssistantTest.testWordsMatchingRegularExpressionTypical2" />
+        <item index="1" class="java.lang.String" itemvalue="Application.WordGameAssistant" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.WordGameAssistantTest.testWordListOrderedBySizeTypical2" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.WordGameAssistantTest.testWordsUsingOnlyLettersTypical" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.WordGameAssistantTest.testWordListOrderedBySizeTypical" />
       </list>
     </recent_temporary>
   </component>
@@ -721,7 +785,7 @@
       <created>1459270864818</created>
       <option name="number" value="Default" />
       <updated>1459270864818</updated>
-      <workItem from="1459802075242" duration="1348000" />
+      <workItem from="1459802075242" duration="4192000" />
     </task>
     <servers />
   </component>
@@ -747,21 +811,21 @@
     <history-entry file="WordGameAssistantTest - 2016.04.04 at 15h 56m 43s.xml">
       <configuration name="WordGameAssistantTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="WordGameAssistantTest - 2016.04.04 at 16h 46m 12s.xml">
+      <configuration name="WordGameAssistantTest" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="WordGameAssistantTest_testWordListOrderedBySizeTypical2 - 2016.04.04 at 15h 38m 52s.xml">
       <configuration name="WordGameAssistantTest.testWordListOrderedBySizeTypical2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WordGameAssistantTest_testWordsUsingOnlyLettersTypical - 2016.04.03 at 14h 57m 01s.xml">
-      <configuration name="WordGameAssistantTest.testWordsUsingOnlyLettersTypical" configurationId="JUnit" />
     </history-entry>
     <history-entry file="WordGameAssistantTest_testWordsUsingOnlyLettersTypical - 2016.04.03 at 14h 57m 15s.xml">
       <configuration name="WordGameAssistantTest.testWordsUsingOnlyLettersTypical" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1348000" />
+    <option name="totallyTimeSpent" value="4192000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="318" y="23" width="1400" height="977" extended-state="0" />
+    <frame x="392" y="62" width="1400" height="977" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -771,8 +835,8 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.219163" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17785715" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.219163" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12785715" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -805,7 +869,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="11" />
+      <option name="time" value="12" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -820,7 +884,9 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#11793#11801#0" expanded="true" />
+            <element signature="e#3924#3932#0" expanded="true" />
+            <element signature="e#11898#11906#0" expanded="true" />
+            <element signature="e#14437#14445#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -841,7 +907,9 @@
           <caret line="111" column="11" selection-start-line="111" selection-start-column="11" selection-end-line="111" selection-end-column="11" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#11793#11801#0" expanded="true" />
+            <element signature="e#3924#3932#0" expanded="true" />
+            <element signature="e#11898#11906#0" expanded="true" />
+            <element signature="e#14437#14445#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -862,7 +930,9 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#11793#11801#0" expanded="true" />
+            <element signature="e#3924#3932#0" expanded="true" />
+            <element signature="e#11898#11906#0" expanded="true" />
+            <element signature="e#14437#14445#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -883,7 +953,9 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#11793#11801#0" expanded="true" />
+            <element signature="e#3924#3932#0" expanded="true" />
+            <element signature="e#11898#11906#0" expanded="true" />
+            <element signature="e#14437#14445#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -904,7 +976,9 @@
           <caret line="117" column="7" selection-start-line="117" selection-start-column="7" selection-end-line="117" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#11793#11801#0" expanded="true" />
+            <element signature="e#3924#3932#0" expanded="true" />
+            <element signature="e#11898#11906#0" expanded="true" />
+            <element signature="e#14437#14445#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -932,7 +1006,9 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#11793#11801#0" expanded="true" />
+            <element signature="e#3924#3932#0" expanded="true" />
+            <element signature="e#11898#11906#0" expanded="true" />
+            <element signature="e#14437#14445#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -953,7 +1029,9 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#11793#11801#0" expanded="true" />
+            <element signature="e#3924#3932#0" expanded="true" />
+            <element signature="e#11898#11906#0" expanded="true" />
+            <element signature="e#14437#14445#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -964,7 +1042,9 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#11793#11801#0" expanded="true" />
+            <element signature="e#3924#3932#0" expanded="true" />
+            <element signature="e#11898#11906#0" expanded="true" />
+            <element signature="e#14437#14445#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -975,7 +1055,9 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#11793#11801#0" expanded="true" />
+            <element signature="e#3924#3932#0" expanded="true" />
+            <element signature="e#11898#11906#0" expanded="true" />
+            <element signature="e#14437#14445#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -986,7 +1068,9 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#11793#11801#0" expanded="true" />
+            <element signature="e#3924#3932#0" expanded="true" />
+            <element signature="e#11898#11906#0" expanded="true" />
+            <element signature="e#14437#14445#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1029,26 +1113,103 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/edu/carleton/chenx2/WordGameAssistantTest.java">
+    <entry file="file://$PROJECT_DIR$/src/edu/carleton/chenx2/WordGameAssistant.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="185" column="92" selection-start-line="185" selection-start-column="92" selection-end-line="185" selection-end-column="92" />
+          <caret line="328" column="40" selection-start-line="328" selection-start-column="40" selection-end-line="328" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3924#3932#0" expanded="true" />
+            <element signature="e#11898#11906#0" expanded="true" />
+            <element signature="e#14437#14445#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/carleton/chenx2/WordGameAssistantTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3171806">
+          <caret line="184" column="78" selection-start-line="184" selection-start-column="78" selection-end-line="184" selection-end-column="78" />
           <folding>
             <element signature="e#2510#2518#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/edu/carleton/chenx2/WordGameAssistant.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8017621">
-          <caret line="361" column="8" selection-start-line="361" selection-start-column="8" selection-end-line="361" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#11793#11801#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>WordGameAssistant</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
