@@ -166,6 +166,7 @@ public class WordGameAssistant {
         if (letters == null || letters.length() == 0){
             return result;
         }
+        letters = letters.toLowerCase();
         //convert the letters into char array and sort for use.
         //create a boolean array visited to record which letter has already been used
         char[] charInput = letters.toCharArray();
@@ -220,6 +221,7 @@ public class WordGameAssistant {
         if (letters == null || letters.length() == 0){
             return result;
         }
+        letters = letters.toLowerCase();
         wordsUsingLettersAllowingRepetitionHelper(letters, this.trie.root.children, "", result);
         return result;
     }
@@ -257,6 +259,7 @@ public class WordGameAssistant {
         if (letters == null || letters.length() == 0){
             return result;
         }
+        letters = letters.toLowerCase();
         //convert the letters into char array and sort for use.
         //create a boolean array visited to record which letter has already been used
         char[] charInput = letters.toCharArray();
@@ -290,6 +293,7 @@ public class WordGameAssistant {
             visited[i] = false;
         }
     }
+
     /**
      * Returns the list of all legal words matching the specified regular expression.
      * For example, if we're using a normal English legal word list and regex="^t.a.l$",
@@ -302,57 +306,18 @@ public class WordGameAssistant {
      * @return the list of matching words
      */
     public List<String> wordsMatchingRegularExpression(String regex) {
-        //edge case
-        List<String> result = new ArrayList<String>();
-        if (regex == null || regex.length() == 0 || regex.charAt(1) == '*'){
-            return result;
+        List<String> words = new LinkedList<String>();
+        if (regex == null || regex.length() == 0){
+            return  words;
         }
-        //recursive call
-        wordsMatchingRegularExpressionHelper(regex, 1, this.trie.root.children, "", result);
-        return result;
-    }
-    //limited version of regex matching function, only support full word regex query
-    //still buddy for * query
-    public void wordsMatchingRegularExpressionHelper(String regex, int pos, HashMap<Character, TrieNode> children, String temp, List<String> result){
-        //base case, when we have matched all letters in regex string
-        if (pos == regex.length() - 1){
-            System.out.println("pos == end");
-            if (this.trie.search(temp)){
-                result.add(temp);
-            }
-            return;
-        }
-        //base case, when we run out of letters in trie children, the end of the branch
-        if (children.size() == 0){
-            System.out.println("size == 0");
-            if (regex.charAt(pos) == '*'){
-                result.add(temp);
-            }
-            return;
-        }
-
-        //main
-        char ch = regex.charAt(pos);
-        System.out.println("cur char is " + ch);
-        if (ch == '.'){
-            for (char key : children.keySet()){
-                System.out.println("key is " + key);
-                wordsMatchingRegularExpressionHelper(regex, pos + 1, children.get(key).children, temp + key, result);
-            }
-        }else if (ch == '*'){
-            char prev = regex.charAt(pos - 1);
-            if (prev == '.'){
-                for (char key : children.keySet()){
-                    wordsMatchingRegularExpressionHelper(regex, pos, children.get(key).children, temp + key, result);
-                }
-            }else{
-                wordsMatchingRegularExpressionHelper(regex, pos, children.get(prev).children, temp + prev, result);
-            }
-        }else{
-            if (children.containsKey(ch)){
-                wordsMatchingRegularExpressionHelper(regex, pos + 1, children.get(ch).children, temp + ch, result);
+        regex = regex.toLowerCase();
+        for (String s: dic){
+            if (s.matches(regex)){
+                words.add(s);
             }
         }
+        System.out.println(words);
+        return words;
     }
     /**
      * Returns a copy of the specified list, in decreasing order of word length.
@@ -363,17 +328,37 @@ public class WordGameAssistant {
      * @return the sorted list
      */
     public List<String> wordListOrderedBySize(List<String> wordList) {
-        // Not yet implemented.
-        return null;
+        if (wordList == null || wordList.size() == 0){
+            return new ArrayList<String>();
+        }
+        Comparator<String> x = new Comparator<String>()
+        {
+            @Override
+            public int compare(String o1, String o2)
+            {
+                if(o1.length() > o2.length())
+                    return -1;
+
+                if(o2.length() > o1.length())
+                    return 1;
+
+                else
+                if(o1.compareTo(o2) > 0)
+                    return 1;
+
+                if(o1.compareTo(o2) < 0)
+                    return -1;
+
+                return 0;
+            }
+        };
+        Collections.sort(wordList,  x);
+        System.out.println(wordList.toString());
+        return wordList;
     }
 
+
     public static void main(String[] args){
-        String[] dic = {"wow", "woe", "owe","we", "wee",
-                "ewe", "woo", "race", "care","acre", "trail","trawl"};
-        WordGameAssistant wordGameAssistant = new WordGameAssistant(dic);
-        List<String> result = wordGameAssistant.wordsMatchingRegularExpression("^t.a.l$");
-        for (String str : result){
-            System.out.println(str);
-        }
+        
     }
 }
